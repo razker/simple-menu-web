@@ -1,7 +1,7 @@
 # simple-menu-web
 A restaurants menu app built with react.js.
 
-# Frontend
+# Getting Started
 <ul>
   <li>npm install</li>
   <li>npm start</li>
