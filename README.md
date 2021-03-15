@@ -1,5 +1,5 @@
 # simple-menu-web
-A restaurant app built with react.js.
+A restaurants menu app built with react.js.
 
 # Frontend
 <ul>
