@@ -1,7 +1,3 @@
-const SERVER_URL = process.env.NODE_ENV === 'production'
-? 'http://myapidomain.com'
-: 'http://localhost:8080' ;
+const SERVER_URL = process.env.REACT_APP_SERVICE_URL;
 
 export default SERVER_URL;
-
-
