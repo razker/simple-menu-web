@@ -4,9 +4,9 @@ import './Styles/animate.css';
 import './Styles/bootsnav.css';
 import './Styles/color.css';
 import './Styles/custom.css';
-import Home from './Components/Layouts/Home';
-import RestaurantDetails from './Components/Layouts/RestaurantDetails';
-import MenuItemEdit from './Components/Layouts/MenuItemEdit';
+import Home from './Components/Home';
+import RestaurantDetails from './Components/RestaurantDetails';
+import MenuItemEdit from './Components/MenuItemEdit';
 
 
 class App extends Component {
