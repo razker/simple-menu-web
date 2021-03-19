@@ -13,15 +13,15 @@ class Header extends Component {
             <header id="hello">
             <div className="container">
                 <div className="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="banner">
-                            <div class="inner_banner">
+                    <div className="col-md-8 col-md-offset-2">
+                        <div className="banner">
+                            <div className="inner_banner">
                                 <div>
                                     {children}
                                 </div>
                                 }
                                 
-                                <div class="stamp">
+                                <div className="stamp">
                                     <img 
                                         src={imgUrl} 
                                         onLoad={handlePageChange}

@@ -10,11 +10,11 @@ const CoverImage = ({}) => {
                  <nav className="navbar navbar-default bootsnav no-background navbar-fixed black">
                     <div className="container">  
                         <div className="navbar-header">
-                            <a className="navbar-brand">
+                            <div className="navbar-brand">
                                 <Link to="/">
                                     <img src={logo} className="logo" alt="" />
                                 </Link>
-                            </a>
+                            </div>
                         </div>
                     </div>
                  </nav>

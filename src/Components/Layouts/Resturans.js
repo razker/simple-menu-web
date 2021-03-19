@@ -4,13 +4,14 @@ import RestaurantItem from './RestaurantItem';
 
  const Restaurants = ({restaurantsDetails}) => {
     return(
-        <div class="container">
+        <div className="container">
              <div className="row">
                  <h2 style={{textAlign: 'center', margin: '15px'}}>
                      Restaurants List
                  </h2>
                 {restaurantsDetails.map(item =>
                     <RestaurantItem
+                    key={item.restaurantId}
                     className={'signature'}
                     title={item.title}
                     description={item.description}

@@ -68,7 +68,7 @@ class RestaurantDetails extends Component {
                 <section id="block">
                     <Menu
                         menuList={menuList}
-                        edit={isAdmin}
+                        edit={Boolean(isAdmin)}
                         restaurantId={restaurantId}
                     />
                 </section>

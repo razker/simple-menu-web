@@ -102,12 +102,12 @@ class MenuItemEdit extends Component {
                 <h2 style={{textAlign: 'center', margin: '15px'}}>
                     Edit Menu Item
                 </h2>
-                <form onSubmit={this.handleSubmit} enctype="multipart/form-data" autocomplete="off">
+                <form onSubmit={this.handleSubmit} encType="multipart/form-data" autoComplete="off">
                     <div className="details">
                         <h3>Menu Type</h3>
                         <select name="menuType"  className="form-control" value={menuType} onChange={this.handleChange}>
                             {Object.keys(MenuTypes).map(key => (
-                                <option value={key} >{MenuTypes[key]}</option>
+                                <option key={key} value={key} >{MenuTypes[key]}</option>
                             ))}
                         </select>
                     </div>

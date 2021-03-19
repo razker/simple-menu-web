@@ -6,7 +6,7 @@ import {ReactComponent as EditLogo} from './../../images/edit-svgrepo-com.svg';
 
  const Menu = ({menuList, edit, restaurantId}) => {
         return(
-            <div class="container">
+            <div className="container">
 
                 <div>
                     {edit &&
@@ -27,13 +27,14 @@ import {ReactComponent as EditLogo} from './../../images/edit-svgrepo-com.svg';
                     }
                     {Object.keys(menuList).map( key =>
                         menuList[key].data.length ?
-                        <div>
+                        <div key={key}>
                             <h2 style={{textAlign: 'left', margin: '15px'}}>
                                 {menuList[key].title}
                             </h2>
                             <div className="row">
                                 {menuList[key].data.map(item =>
                                     <MenuItem
+                                        key={item._id}
                                         className={'signature'}
                                         title={item.title}
                                         description={item.description}
@@ -52,12 +53,12 @@ import {ReactComponent as EditLogo} from './../../images/edit-svgrepo-com.svg';
 }
 
 Menu.propTypes = {
-    menuList: PropTypes.array,
+    menuList: PropTypes.object,
     edit: PropTypes.bool
 };
 
 Menu.defaultProps = {
-    menuList: [],
+    menuList: {},
     edit: false
 };
 
