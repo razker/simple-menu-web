@@ -17,7 +17,7 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        setTimeout(this.fetchRestaurants,1000);
+        this.fetchRestaurants();
     }
 
     fetchRestaurants() {

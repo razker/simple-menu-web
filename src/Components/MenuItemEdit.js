@@ -31,7 +31,7 @@ class MenuItemEdit extends Component {
     }
 
     componentDidMount() {
-        setTimeout(() => this.setState({loading:false}),500);
+        this.setState({loading:false});
     }
 
     handleSubmit(event) {
