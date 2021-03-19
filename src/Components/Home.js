@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import CoverImage from './Layouts/CoverImage';
-import Restaurants from './Layouts/Resturans';
+import Restaurants from './Layouts/Resturants';
 import SERVER_URL from '../constants/server';
 import Splash from './Layouts/Splash';
 import {Tagline} from './Layouts/Tagline';

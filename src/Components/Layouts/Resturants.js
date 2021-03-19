@@ -15,7 +15,7 @@ import RestaurantItem from './RestaurantItem';
                     className={'signature'}
                     title={item.title}
                     description={item.description}
-                    restaurantId={item.restaurantId}
+                    restaurantId={item._id}
                     />
                 )}
              </div>
