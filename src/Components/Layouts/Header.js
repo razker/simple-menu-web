@@ -19,8 +19,6 @@ class Header extends Component {
                                 <div>
                                     {children}
                                 </div>
-                                }
-                                
                                 <div className="stamp">
                                     <img 
                                         src={imgUrl} 
